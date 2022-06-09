@@ -22,6 +22,7 @@ services:
     - DOMAIN=https://${DOMAIN}          # DOMAIN is set in .env but doesn't have protocol prefix
     - SMTP_FROM_NAME=Bitwarden (${DOMAIN})
     - IP_HEADER=X-Forwarded-For
+    - _ENABLE_EMAIL_2FA=false
     - ADMIN_TOKEN                       # Value-less variables are set in .env
     - SIGNUPS_ALLOWED
     - SMTP_HOST

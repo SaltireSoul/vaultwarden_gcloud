@@ -5,4 +5,6 @@
 
 # Except backups folder
 !/backups
-!/hideemail2fa
+
+# Except hideemail2fa script
+!/hideemail2fa/hide_mfa.sh
